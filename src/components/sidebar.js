@@ -4,10 +4,10 @@ import { Nav, NavItem, NavLink } from "reactstrap";
 export class Sidebar extends React.Component {
   render() {
     return (
-      <div className="sidebar">
+      <span className="sidebar fill">
         <h2>Nubuscu.me</h2>
         {/* top align this one */}
-        <div>
+        <span>
           <Nav vertical>
             <NavItem>
               <NavLink href="#">Spoofy</NavLink>
@@ -19,20 +19,20 @@ export class Sidebar extends React.Component {
               <NavLink href="#">Some other third thing</NavLink>
             </NavItem>
           </Nav>
-        </div>
+        </span>
         {/* bottom align this one */}
-        <div>
+        <span>
           <h4>External Links</h4>
           <Nav vertical>
             <NavItem>
-              <NavLink href="#">Github</NavLink>
+              <NavLink href="https://github.com/Nubuscu">Github</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#">LinkedIn</NavLink>
+              <NavLink href="https://www.linkedin.com/in/tyler-kennedy-b03280170/">LinkedIn</NavLink>
             </NavItem>
           </Nav>
-        </div>
-      </div>
+        </span>
+      </span>
     )
   }
 }
