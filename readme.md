@@ -20,7 +20,7 @@ An attempt at:
 
 ## What's in a name?
 
-talking about music, or art in general, can fee la bit pretentious
+talking about music, or art in general, can feel a bit pretentious
 
 ## Tech stack
 
